@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/* Reset Style*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Ubuntu';
+    color: #000B33 !important;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Default CSS */
+
+/* Colors */
+.white{
+	color: #fff;
+}
+.default-color{
+    color: #13D400;
+}
+.default_bg{
+	background: #13D400;
+}
+.light-grey{
+    color: #EEE;
+}
+.medium_grey{
+	background: #F6F7F9;
+}
+.dark-grey{
+    color: #9FA1B0;
+}
+.dark-blue{
+    color: #000B33 !important;
+}
+.active{
+	color: #13D400 !important;
+}
+.clearfix{
+    clear:both;
+}
+
+/* Buttons */
+.primary_button{
+    padding: 20px 40px;
+    background: #13D400;
+    -webkit-clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 13% 113%, 0 74%, 0 0);
+    clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 13% 113%, 0 74%, 0 0);
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.primary_button_social{
+    padding: 4px 12px;
+    background: #1a2448;
+    -webkit-clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 40% 113%, 0 74%, 0 0);
+    clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 40% 113%, 0 74%, 0 0);
+    border: none;
+    color: white;
+    font-size: 12px;
+	margin-left:5px;
+}
+.secondary_button{
+    padding: 20px 40px;
+    background: #fff;
+    -webkit-clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 13% 113%, 0 74%, 0 0);
+    clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 13% 113%, 0 74%, 0 0);
+    border: 1px solid #13D400;
+    color: #13D400;
+    font-size: 16px;
+	margin-left:30px;
+}
+/* .secondary_main_button{
+    margin-left: 30px;
+}
+.secondary_button{
+    left: 12.91em;
+    top: -3.4em;
+    padding: 1.19em 2.42em;
+    position: relative;
+    background: white;
+    border: none;
+    box-shadow: none;
+    -webkit-clip-path: polygon(100% 0%, 100% 47%, 100% 100%, 13% 100%, 0 83%, 0 0);
+    clip-path: polygon(107% 0%, 109% 40%, 100% 100%, 13% 113%, 0 74%, 0 0);
+    color: #000;
+    font-size: 16px;
+} */
+.align_left{
+	float:left;
+}
+.align_right{
+	float:right;
+}
+.padding_left{
+	padding-left:5px !important;
+}
+.padding_none{
+	padding:0 !important;
+}
+.margin_none{
+	margin:0 !important;
+}
+.margin_top{
+	margin-top:2em !important;
+}
+.margin_bottom{
+	margin-bottom:2em !important;
+}
+.flex{
+	display:flex;
+}
+.align_heading{
+	position: relative;
+    left: 2em;
+    top: 1em;
+}
+.service_1{
+	padding:2em 0;
+	border-bottom:1px solid #c5c8d1;
+}
+.border_none{
+	border:none !important;
+}
+.dark_blue_bg{
+	background: #000B33; 
+}
+.dark_white_bg{
+	background: #fff; 
+}
+
+
+/* Typo */
+h1{
+    font-size: 3em;
+	line-height:1.2em;
+}
+h3{
+	font-size:2em;
+}
+p{
+    font-size: 1em;
+    margin: 1em 0;
+	line-height:25px;
+}
+.align_top{
+    position: relative;
+    top: -3em;
+    right: 2em;
+    padding-right: 1em;
+    line-height: 3.5em;
+}
+.testimonial_heading{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1.5em;
+	padding:2em 0;
+	color: #000B33;
+}
+
+/* Banner Style*/
+.logo_responsive{
+	position:relative;
+	margin-left:20%;
+}
+.banner_content_responsive{
+	    padding-right: 10em;
+}
+.banner{
+    background:url('../images/banner.jpg') no-repeat;
+    background-size: 100%;
+    padding:10% 0;
+}
+.banner_wrapper{
+    position: relative;
+    float: right;
+    padding-right: 3em;
+    width: 34em;
+    top: -2em;
+    right: 7.3em;
+}
+.logo_align img{
+    position: relative;
+    left: 10em;
+}
+.click{
+	display:table;
+	margin:0 auto;
+	position: relative;
+    top: 9em;
+}
+.scroll{    
+
+}
+/* Categories*/
+
+.categories_links{
+
+	margin:0 auto;
+	padding:20px 0;
+}
+.categories_links li:nth-child(2){
+	border-bottom:1px solid #13D400;
+}
+.categories_links li{
+	display:inline;
+    padding: 20px 45px;
+	border-bottom:1px solid #EEE;
+}
+.categories_links li a{
+	color:#9FA1B0;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+/* Section Blocks*/
+.section_blocks{
+	margin-top:4em;
+}
+.main_buttons{
+	margin-top:10px;
+}
+.cat_image{
+	background:url('../images/1.jpg') no-repeat;
+    background-size: 100%;
+    padding:17% 0;
+}
+.cat_image_2{
+	background:url('../images/2.jpg') no-repeat;
+    background-size: 100%;
+    padding:17% 0;
+}
+.content_responsive{
+	margin-top:3em;
+}
+.quality_assurance{
+	box-sizing:border-box;
+	height:28em;
+	padding:4em;
+}
+
+
+/* Campaign */
+.campaign_wrapper{
+	background:url('../images/campaign_bg.jpg') 0 0 no-repeat;
+	background-size:cover;
+}
+.campaign_inner_container{
+	box-sizing:border-box;
+	margin: 6em 0 6em 14em;
+	border-right:1px solid #fff;
+}
+.margin_left{
+	margin-left:6em;
+}
+
+/* Footer */
+.footer_wrapper{
+	padding-top:3em;
+}
+.footer_logo{
+	margin-top: 15%;
+}
+.footer-logo img{
+	left: 1em;
+    position: relative;
+}
+.footer_links{
+	display:flex;
+}
+.footer_link_heading{
+	text-transform:uppercase;
+
+}
+.footer_links ul li{
+
+	padding:0.2em 0;
+}
+.footer_links ul li a{
+	text-decoration:none;
+	color: #7D8598;
+}
+.margin_medium_top{
+	margin-top:0.5em;
+}
+.padding_bottom{
+	padding-bottom:1em;
+	border-bottom:1px solid #106719;
+}
+.margin_left_links{
+	margin-left: 4em;
+}
+.margin_left_medium{
+	margin-left:1em !important;
+}
+.margin_left_last_link{
+	margin-left:6.7em;
+}
+.copyright{
+	position: relative;
+    left: 23%;
+    top: 1em;
+    color: #7D8598;
+}
+.padding_bottom_footer{
+	padding-bottom:3em;
+}
+
+
+
+
